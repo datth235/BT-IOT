@@ -83,6 +83,12 @@ int main(){
     head = delnode(head, x);
     display(head);
     free(head);
-    display(head);
     return 0;
 }
+/*
+OUTPUT:
+Rong
+1 2 3 4 5
+1 2 3 4 5
+1 3 4 5
+*/

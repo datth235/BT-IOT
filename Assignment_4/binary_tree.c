@@ -65,3 +65,12 @@ int main(){
     printf("So luong node da xoa: %d\n", delete_cnt);
     return 0;
 }
+
+/*
+OUTPUT:
+Inorder:        
+0 1 2 3 5 6 8 9 
+Preorder:       
+3 1 0 2 8 6 5 9
+So luong node da xoa: 8
+*/
