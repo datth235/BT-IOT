@@ -78,7 +78,7 @@ int main(){
     head = addback(head, 4);
     head = addback(head, 5);
     display(head);
-    Node x = find(head, 2);
+    Node x = find(head, 5);
     display(head);
     head = delnode(head, x);
     display(head);
